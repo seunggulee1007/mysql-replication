@@ -1,0 +1,516 @@
+2024-07-06T11:34:26.249256Z 0 [System] [MY-015017] [Server] MySQL Server Initialization - start.
+2024-07-06T11:34:26.250358Z 0 [Warning] [MY-011070] [Server] 'binlog_format' is deprecated and will be removed in a future release.
+2024-07-06T11:34:26.250366Z 0 [Warning] [MY-011068] [Server] The syntax 'log_slave_updates' is deprecated and will be removed in a future release. Please use log_replica_updates instead.
+2024-07-06T11:34:26.250370Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2024-07-06T11:34:26.250398Z 0 [System] [MY-013169] [Server] /usr/sbin/mysqld (mysqld 9.0.0) initializing of server in progress as process 80
+2024-07-06T11:34:26.253496Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T11:34:26.261336Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-06T11:34:27.130395Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-06T11:34:29.061529Z 6 [Warning] [MY-010453] [Server] root@localhost is created with an empty password ! Please consider switching off the --initialize-insecure option.
+2024-07-06T11:34:31.173950Z 0 [System] [MY-015018] [Server] MySQL Server Initialization - end.
+2024-07-06T11:34:31.230540Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-07-06T11:34:31.530065Z 0 [Warning] [MY-011070] [Server] 'binlog_format' is deprecated and will be removed in a future release.
+2024-07-06T11:34:31.530087Z 0 [Warning] [MY-011068] [Server] The syntax 'log_slave_updates' is deprecated and will be removed in a future release. Please use log_replica_updates instead.
+2024-07-06T11:34:31.530093Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2024-07-06T11:34:31.534906Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.0.0) starting as process 123
+2024-07-06T11:34:31.537392Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T11:34:31.564369Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-06T11:34:31.957433Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-06T11:34:32.267947Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-06T11:34:32.268238Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-06T11:34:32.274518Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2024-07-06T11:34:32.336486Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Socket: /var/run/mysqld/mysqlx.sock
+2024-07-06T11:34:32.337330Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '9.0.0'  socket: '/var/lib/mysql/mysql.sock'  port: 0  MySQL Community Server - GPL.
+2024-07-06T11:34:33.761943Z 10 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 9.0.0).
+2024-07-06T11:34:34.648143Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.0.0)  MySQL Community Server - GPL.
+2024-07-06T11:34:34.648252Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-07-06T11:34:34.777921Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-07-06T11:34:35.019917Z 0 [Warning] [MY-011070] [Server] 'binlog_format' is deprecated and will be removed in a future release.
+2024-07-06T11:34:35.019933Z 0 [Warning] [MY-011068] [Server] The syntax 'log_slave_updates' is deprecated and will be removed in a future release. Please use log_replica_updates instead.
+2024-07-06T11:34:35.019946Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2024-07-06T11:34:35.023062Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.0.0) starting as process 1
+2024-07-06T11:34:35.025593Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T11:34:35.044336Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-06T11:34:35.438399Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-06T11:34:35.726170Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-06T11:34:35.726271Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-06T11:34:35.730717Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2024-07-06T11:34:35.761262Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-07-06T11:34:35.761366Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '9.0.0'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2024-07-06T11:36:57.279184Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 9.0.0).
+2024-07-06T11:36:58.577159Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.0.0)  MySQL Community Server - GPL.
+2024-07-06T11:36:58.577304Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-07-06T11:37:02.514274Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-07-06T11:37:02.836073Z 0 [Warning] [MY-011070] [Server] 'binlog_format' is deprecated and will be removed in a future release.
+2024-07-06T11:37:02.836114Z 0 [Warning] [MY-011068] [Server] The syntax 'log_slave_updates' is deprecated and will be removed in a future release. Please use log_replica_updates instead.
+2024-07-06T11:37:02.836119Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2024-07-06T11:37:02.845322Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.0.0) starting as process 1
+2024-07-06T11:37:02.847542Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T11:37:02.890371Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-06T11:37:03.194299Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-06T11:37:03.382745Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-06T11:37:03.383380Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-06T11:37:03.386380Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2024-07-06T11:37:03.401118Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-07-06T11:37:03.401201Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '9.0.0'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2024-07-06T11:41:28.610222Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 9.0.0).
+2024-07-06T11:41:29.492575Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.0.0)  MySQL Community Server - GPL.
+2024-07-06T11:41:29.497359Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-07-06T12:28:30.968521Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-07-06T12:28:31.330358Z 0 [Warning] [MY-011070] [Server] 'binlog_format' is deprecated and will be removed in a future release.
+2024-07-06T12:28:31.330614Z 0 [Warning] [MY-011068] [Server] The syntax 'log_slave_updates' is deprecated and will be removed in a future release. Please use log_replica_updates instead.
+2024-07-06T12:28:31.330646Z 0 [Warning] [MY-011070] [Server] 'Disabling symbolic links using --skip-symbolic-links (or equivalent) is the default. Consider not using this option as it' is deprecated and will be removed in a future release.
+2024-07-06T12:28:31.336406Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.0.0) starting as process 1
+2024-07-06T12:28:31.352772Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T12:28:31.404968Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-06T12:28:31.930221Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-06T12:28:32.343428Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-06T12:28:32.343622Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-06T12:28:32.353888Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2024-07-06T12:28:32.428811Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '9.0.0'  socket: '/var/lib/mysql/mysql.sock'  port: 3306  MySQL Community Server - GPL.
+2024-07-06T12:28:32.429048Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-07-06T12:59:41.022315Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 9.0.0).
+2024-07-06T12:59:42.722763Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.0.0)  MySQL Community Server - GPL.
+2024-07-06T12:59:42.723247Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-07-06T13:00:42.980011Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-07-06T13:00:43.359921Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.0.0) starting as process 1
+2024-07-06T13:00:43.403202Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T13:00:43.468541Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-06T13:00:44.115459Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-06T13:00:44.546489Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-06T13:00:44.547747Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-06T13:00:44.557109Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2024-07-06T13:00:44.621027Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-07-06T13:00:44.621548Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '9.0.0'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2024-07-06T13:41:33.876274Z 8 [Warning] [MY-010604] [Repl] Neither --relay-log nor --relay-log-index were used; so replication may break when this MySQL server acts as a replica and has his hostname changed!! Please use '--relay-log=ad5c50054866-relay-bin' to avoid this problem.
+2024-07-06T14:17:19.079528Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 9.0.0).
+2024-07-06T14:17:21.135663Z 0 [Warning] [MY-010909] [Server] /usr/sbin/mysqld: Forcing close of thread 8  user: 'root'.
+2024-07-06T14:17:22.725904Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.0.0)  MySQL Community Server - GPL.
+2024-07-06T14:17:22.726289Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-07-06T14:17:39.397344Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-07-06T14:17:39.922620Z 0 [Warning] [MY-011068] [Server] The syntax 'slave_skip_errors' is deprecated and will be removed in a future release. Please use replica_skip_errors instead.
+2024-07-06T14:17:39.922713Z 0 [Warning] [MY-011070] [Server] 'binlog_format' is deprecated and will be removed in a future release.
+2024-07-06T14:17:39.931405Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.0.0) starting as process 1
+2024-07-06T14:17:39.949595Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T14:17:40.001492Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-06T14:17:40.617979Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-06T14:17:41.080281Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-06T14:17:41.080433Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-06T14:17:41.087776Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2024-07-06T14:17:41.095556Z 0 [ERROR] [MY-000067] [Server] unknown variable 'expire-logs-days=7'.
+2024-07-06T14:17:41.096697Z 0 [ERROR] [MY-010119] [Server] Aborting
+2024-07-06T14:17:42.610825Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.0.0)  MySQL Community Server - GPL.
+2024-07-06T14:17:42.610949Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-07-06T14:19:18.661605Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-07-06T14:19:19.064121Z 0 [Warning] [MY-011068] [Server] The syntax 'slave_skip_errors' is deprecated and will be removed in a future release. Please use replica_skip_errors instead.
+2024-07-06T14:19:19.079214Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.0.0) starting as process 1
+2024-07-06T14:19:19.107606Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T14:19:19.165595Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-06T14:19:19.786723Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-06T14:19:20.366769Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-06T14:19:20.368927Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-06T14:19:20.379237Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2024-07-06T14:19:20.437605Z 0 [Warning] [MY-010604] [Repl] Neither --relay-log nor --relay-log-index were used; so replication may break when this MySQL server acts as a replica and has his hostname changed!! Please use '--relay-log=051605f84409-relay-bin' to avoid this problem.
+2024-07-06T14:19:20.452346Z 0 [ERROR] [MY-010544] [Repl] Failed to open the relay log './ad5c50054866-relay-bin.000001' (relay_log_pos 4).
+2024-07-06T14:19:20.452467Z 0 [ERROR] [MY-011059] [Repl] Could not find target log file mentioned in applier metadata in the index file './051605f84409-relay-bin.index' during relay log initialization.
+2024-07-06T14:19:20.456537Z 0 [ERROR] [MY-010426] [Repl] Replica: Failed to initialize the connection metadata structure for channel ''; its record may still be present in the applier metadata repository, consider deleting it.
+2024-07-06T14:19:20.456717Z 0 [ERROR] [MY-010529] [Repl] Failed to create or recover replication info repositories.
+2024-07-06T14:19:20.468837Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-07-06T14:19:20.469849Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '9.0.0'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2024-07-06T14:23:46.062349Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 9.0.0).
+2024-07-06T14:23:47.313942Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.0.0)  MySQL Community Server - GPL.
+2024-07-06T14:23:47.318291Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-07-06T14:25:11.335078Z 0 [System] [MY-015015] [Server] MySQL Server - start.
+2024-07-06T14:25:11.702162Z 0 [Warning] [MY-011068] [Server] The syntax 'slave_skip_errors' is deprecated and will be removed in a future release. Please use replica_skip_errors instead.
+2024-07-06T14:25:11.707397Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 9.0.0) starting as process 1
+2024-07-06T14:25:11.736574Z 0 [Warning] [MY-010159] [Server] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T14:25:11.786619Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-07-06T14:25:12.341635Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-07-06T14:25:12.780117Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-07-06T14:25:12.780268Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-07-06T14:25:12.794126Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2024-07-06T14:25:12.853671Z 0 [Warning] [MY-010604] [Repl] Neither --relay-log nor --relay-log-index were used; so replication may break when this MySQL server acts as a replica and has his hostname changed!! Please use '--relay-log=427bc3034e50-relay-bin' to avoid this problem.
+2024-07-06T14:25:12.864789Z 0 [ERROR] [MY-010544] [Repl] Failed to open the relay log './ad5c50054866-relay-bin.000001' (relay_log_pos 4).
+2024-07-06T14:25:12.865163Z 0 [ERROR] [MY-011059] [Repl] Could not find target log file mentioned in applier metadata in the index file './427bc3034e50-relay-bin.index' during relay log initialization.
+2024-07-06T14:25:12.865920Z 0 [ERROR] [MY-010426] [Repl] Replica: Failed to initialize the connection metadata structure for channel ''; its record may still be present in the applier metadata repository, consider deleting it.
+2024-07-06T14:25:12.867083Z 0 [ERROR] [MY-010529] [Repl] Failed to create or recover replication info repositories.
+2024-07-06T14:25:12.878957Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '9.0.0'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.
+2024-07-06T14:25:12.879397Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock
+2024-07-06T14:34:47.417017Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user <via user signal>. Shutting down mysqld (Version: 9.0.0).
+2024-07-06T14:34:48.481424Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 9.0.0)  MySQL Community Server - GPL.
+2024-07-06T14:34:48.481814Z 0 [System] [MY-015016] [Server] MySQL Server - end.
+2024-07-06T14:35:07.736679Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-07-06T14:35:07.750877Z 0 [Note] mysqld (mysqld 5.7.30-33-log) starting as process 1 ...
+2024-07-06T14:35:07.792789Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T14:35:07.821493Z 0 [Note] InnoDB: PUNCH HOLE support available
+2024-07-06T14:35:07.824597Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-07-06T14:35:07.825454Z 0 [Note] InnoDB: Uses event mutexes
+2024-07-06T14:35:07.825965Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2024-07-06T14:35:07.829446Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.7
+2024-07-06T14:35:07.829965Z 0 [Note] InnoDB: Using Linux native AIO
+2024-07-06T14:35:07.835390Z 0 [Note] InnoDB: Number of pools: 1
+2024-07-06T14:35:07.837332Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2024-07-06T14:35:07.845768Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-07-06T14:35:07.861192Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-07-06T14:35:07.873725Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2024-07-06T14:35:07.908116Z 0 [Note] InnoDB: Crash recovery did not find the parallel doublewrite buffer at /var/lib/mysql/xb_doublewrite
+2024-07-06T14:35:07.944499Z 0 [Note] InnoDB: Setting log file ./ib_logfile101 size to 48 MB
+2024-07-06T14:35:08.079311Z 0 [Note] InnoDB: Setting log file ./ib_logfile1 size to 48 MB
+2024-07-06T14:35:08.238798Z 0 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+2024-07-06T14:35:08.240284Z 0 [Warning] InnoDB: New log files created, LSN=32573642
+2024-07-06T14:35:08.243164Z 0 [ERROR] [FATAL] InnoDB: Table flags are 0 in the data dictionary but the flags in file ./ibdata1 are 0x4800!
+2024-07-06 14:35:08 0x7ffffbe5e880  InnoDB: Assertion failure in thread 140737419536512 in file ut0ut.cc line 922
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.7/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+14:35:08 UTC - mysqld got signal 6 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+Attempting to collect some information that could help diagnose the problem.
+As this is a crash and something is definitely wrong, the information
+collection process might fail.
+Please help us make Percona Server better by reporting any
+bugs at https://bugs.percona.com/
+
+key_buffer_size=8388608
+read_buffer_size=131072
+max_used_connections=0
+max_threads=152
+thread_count=0
+connection_count=0
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 68337 K  bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+Thread pointer: 0x0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+stack_bottom = 0 thread_stack 0x40000
+mysqld(my_print_stacktrace+0x3b)[0xf2046b]
+mysqld(handle_fatal_signal+0x496)[0xd54ac6]
+/lib64/libpthread.so.0(+0xf630)[0x7fffff3c9630]
+/lib64/libc.so.6(gsignal+0x37)[0x7ffffd4c3387]
+/lib64/libc.so.6(abort+0x148)[0x7ffffd4c4a78]
+mysqld[0x77e04c]
+mysqld(_ZN2ib5fatalD1Ev+0xfd)[0x116666d]
+mysqld[0x122c15a]
+mysqld[0x122c39b]
+mysqld(_Z7_fil_ioRK9IORequestbRK9page_id_tRK11page_size_tmmPvS8_P5trx_tb+0x2b6)[0x1233c36]
+mysqld(_Z13buf_read_pageRK9page_id_tRK11page_size_tP5trx_t+0x16c)[0x11dd4ec]
+mysqld(_Z16buf_page_get_genRK9page_id_tRK11page_size_tmP11buf_block_tmPKcmP5mtr_tbP7dberr_t+0x4a0)[0x11aa3a0]
+mysqld(_Z31trx_rseg_get_n_undo_tablespacesPm+0x16e)[0x1144ffe]
+mysqld[0x77d133]
+mysqld(_Z34innobase_start_or_create_for_mysqlv+0x3a92)[0x1110a82]
+mysqld[0xfbabf7]
+mysqld(_Z24ha_initialize_handlertonP13st_plugin_int+0x51)[0x7aee21]
+mysqld[0xc94f65]
+mysqld(_Z40plugin_register_builtin_and_init_core_sePiPPc+0x2f0)[0xc9af00]
+mysqld[0xd4b60d]
+mysqld(_Z11mysqld_mainiPPc+0xaa5)[0xd4f0d5]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7ffffd4af555]
+mysqld[0x7a0414]
+You may download the Percona Server operations manual by visiting
+http://www.percona.com/software/percona-server/. You may find information
+in the manual which will help you identify the cause of the crash.
+2024-07-06T14:35:28.573439Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-07-06T14:35:28.578427Z 0 [Note] mysqld (mysqld 5.7.30-33-log) starting as process 1 ...
+2024-07-06T14:35:28.590416Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T14:35:28.606250Z 0 [Note] InnoDB: PUNCH HOLE support available
+2024-07-06T14:35:28.608351Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-07-06T14:35:28.608554Z 0 [Note] InnoDB: Uses event mutexes
+2024-07-06T14:35:28.611799Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2024-07-06T14:35:28.612068Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.7
+2024-07-06T14:35:28.612368Z 0 [Note] InnoDB: Using Linux native AIO
+2024-07-06T14:35:28.617458Z 0 [Note] InnoDB: Number of pools: 1
+2024-07-06T14:35:28.619875Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2024-07-06T14:35:28.626991Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-07-06T14:35:28.635289Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-07-06T14:35:28.645517Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2024-07-06T14:35:28.665723Z 0 [Note] InnoDB: Crash recovery did not find the parallel doublewrite buffer at /var/lib/mysql/xb_doublewrite
+2024-07-06T14:35:28.677124Z 0 [ERROR] [FATAL] InnoDB: Table flags are 0 in the data dictionary but the flags in file ./ibdata1 are 0x4800!
+2024-07-06 14:35:28 0x7ffffbe5e880  InnoDB: Assertion failure in thread 140737419536512 in file ut0ut.cc line 922
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.7/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+14:35:28 UTC - mysqld got signal 6 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+Attempting to collect some information that could help diagnose the problem.
+As this is a crash and something is definitely wrong, the information
+collection process might fail.
+Please help us make Percona Server better by reporting any
+bugs at https://bugs.percona.com/
+
+key_buffer_size=8388608
+read_buffer_size=131072
+max_used_connections=0
+max_threads=152
+thread_count=0
+connection_count=0
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 68337 K  bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+Thread pointer: 0x0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+stack_bottom = 0 thread_stack 0x40000
+mysqld(my_print_stacktrace+0x3b)[0xf2046b]
+mysqld(handle_fatal_signal+0x496)[0xd54ac6]
+/lib64/libpthread.so.0(+0xf630)[0x7fffff3c9630]
+/lib64/libc.so.6(gsignal+0x37)[0x7ffffd4c3387]
+/lib64/libc.so.6(abort+0x148)[0x7ffffd4c4a78]
+mysqld[0x77e04c]
+mysqld(_ZN2ib5fatalD1Ev+0xfd)[0x116666d]
+mysqld[0x122c15a]
+mysqld[0x122c39b]
+mysqld(_Z7_fil_ioRK9IORequestbRK9page_id_tRK11page_size_tmmPvS8_P5trx_tb+0x2b6)[0x1233c36]
+mysqld(_Z13buf_read_pageRK9page_id_tRK11page_size_tP5trx_t+0x16c)[0x11dd4ec]
+mysqld(_Z16buf_page_get_genRK9page_id_tRK11page_size_tmP11buf_block_tmPKcmP5mtr_tbP7dberr_t+0x4a0)[0x11aa3a0]
+mysqld(_Z31trx_rseg_get_n_undo_tablespacesPm+0x16e)[0x1144ffe]
+mysqld[0x77d133]
+mysqld(_Z34innobase_start_or_create_for_mysqlv+0x3a92)[0x1110a82]
+mysqld[0xfbabf7]
+mysqld(_Z24ha_initialize_handlertonP13st_plugin_int+0x51)[0x7aee21]
+mysqld[0xc94f65]
+mysqld(_Z40plugin_register_builtin_and_init_core_sePiPPc+0x2f0)[0xc9af00]
+mysqld[0xd4b60d]
+mysqld(_Z11mysqld_mainiPPc+0xaa5)[0xd4f0d5]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7ffffd4af555]
+mysqld[0x7a0414]
+You may download the Percona Server operations manual by visiting
+http://www.percona.com/software/percona-server/. You may find information
+in the manual which will help you identify the cause of the crash.
+2024-07-06T14:35:56.212454Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-07-06T14:35:56.217952Z 0 [Note] mysqld (mysqld 5.7.30-33-log) starting as process 1 ...
+2024-07-06T14:35:56.253446Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T14:35:56.263545Z 0 [Note] InnoDB: PUNCH HOLE support available
+2024-07-06T14:35:56.265244Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-07-06T14:35:56.265607Z 0 [Note] InnoDB: Uses event mutexes
+2024-07-06T14:35:56.266004Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2024-07-06T14:35:56.266305Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.7
+2024-07-06T14:35:56.266843Z 0 [Note] InnoDB: Using Linux native AIO
+2024-07-06T14:35:56.271539Z 0 [Note] InnoDB: Number of pools: 1
+2024-07-06T14:35:56.273589Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2024-07-06T14:35:56.284211Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-07-06T14:35:56.288462Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-07-06T14:35:56.302445Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2024-07-06T14:35:56.322172Z 0 [Note] InnoDB: Crash recovery did not find the parallel doublewrite buffer at /var/lib/mysql/xb_doublewrite
+2024-07-06T14:35:56.331279Z 0 [ERROR] [FATAL] InnoDB: Table flags are 0 in the data dictionary but the flags in file ./ibdata1 are 0x4800!
+2024-07-06 14:35:56 0x7ffffbe5e880  InnoDB: Assertion failure in thread 140737419536512 in file ut0ut.cc line 922
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.7/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+14:35:56 UTC - mysqld got signal 6 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+Attempting to collect some information that could help diagnose the problem.
+As this is a crash and something is definitely wrong, the information
+collection process might fail.
+Please help us make Percona Server better by reporting any
+bugs at https://bugs.percona.com/
+
+key_buffer_size=8388608
+read_buffer_size=131072
+max_used_connections=0
+max_threads=152
+thread_count=0
+connection_count=0
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 68337 K  bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+Thread pointer: 0x0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+stack_bottom = 0 thread_stack 0x40000
+mysqld(my_print_stacktrace+0x3b)[0xf2046b]
+mysqld(handle_fatal_signal+0x496)[0xd54ac6]
+/lib64/libpthread.so.0(+0xf630)[0x7fffff3c9630]
+/lib64/libc.so.6(gsignal+0x37)[0x7ffffd4c3387]
+/lib64/libc.so.6(abort+0x148)[0x7ffffd4c4a78]
+mysqld[0x77e04c]
+mysqld(_ZN2ib5fatalD1Ev+0xfd)[0x116666d]
+mysqld[0x122c15a]
+mysqld[0x122c39b]
+mysqld(_Z7_fil_ioRK9IORequestbRK9page_id_tRK11page_size_tmmPvS8_P5trx_tb+0x2b6)[0x1233c36]
+mysqld(_Z13buf_read_pageRK9page_id_tRK11page_size_tP5trx_t+0x16c)[0x11dd4ec]
+mysqld(_Z16buf_page_get_genRK9page_id_tRK11page_size_tmP11buf_block_tmPKcmP5mtr_tbP7dberr_t+0x4a0)[0x11aa3a0]
+mysqld(_Z31trx_rseg_get_n_undo_tablespacesPm+0x16e)[0x1144ffe]
+mysqld[0x77d133]
+mysqld(_Z34innobase_start_or_create_for_mysqlv+0x3a92)[0x1110a82]
+mysqld[0xfbabf7]
+mysqld(_Z24ha_initialize_handlertonP13st_plugin_int+0x51)[0x7aee21]
+mysqld[0xc94f65]
+mysqld(_Z40plugin_register_builtin_and_init_core_sePiPPc+0x2f0)[0xc9af00]
+mysqld[0xd4b60d]
+mysqld(_Z11mysqld_mainiPPc+0xaa5)[0xd4f0d5]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7ffffd4af555]
+mysqld[0x7a0414]
+You may download the Percona Server operations manual by visiting
+http://www.percona.com/software/percona-server/. You may find information
+in the manual which will help you identify the cause of the crash.
+2024-07-06T14:36:53.937454Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-07-06T14:36:53.945544Z 0 [Note] mysqld (mysqld 5.7.30-33-log) starting as process 1 ...
+2024-07-06T14:36:53.956361Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T14:36:53.982411Z 0 [Note] InnoDB: PUNCH HOLE support available
+2024-07-06T14:36:53.984372Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-07-06T14:36:53.985440Z 0 [Note] InnoDB: Uses event mutexes
+2024-07-06T14:36:53.985597Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2024-07-06T14:36:53.985821Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.7
+2024-07-06T14:36:53.985877Z 0 [Note] InnoDB: Using Linux native AIO
+2024-07-06T14:36:53.991586Z 0 [Note] InnoDB: Number of pools: 1
+2024-07-06T14:36:53.994906Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2024-07-06T14:36:54.005745Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-07-06T14:36:54.010878Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-07-06T14:36:54.024276Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2024-07-06T14:36:54.040517Z 0 [Note] InnoDB: Crash recovery did not find the parallel doublewrite buffer at /var/lib/mysql/xb_doublewrite
+2024-07-06T14:36:54.052549Z 0 [ERROR] [FATAL] InnoDB: Table flags are 0 in the data dictionary but the flags in file ./ibdata1 are 0x4800!
+2024-07-06 14:36:54 0x7ffffbe5e880  InnoDB: Assertion failure in thread 140737419536512 in file ut0ut.cc line 922
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.7/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+14:36:54 UTC - mysqld got signal 6 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+Attempting to collect some information that could help diagnose the problem.
+As this is a crash and something is definitely wrong, the information
+collection process might fail.
+Please help us make Percona Server better by reporting any
+bugs at https://bugs.percona.com/
+
+key_buffer_size=8388608
+read_buffer_size=131072
+max_used_connections=0
+max_threads=152
+thread_count=0
+connection_count=0
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 68337 K  bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+Thread pointer: 0x0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+stack_bottom = 0 thread_stack 0x40000
+mysqld(my_print_stacktrace+0x3b)[0xf2046b]
+mysqld(handle_fatal_signal+0x496)[0xd54ac6]
+/lib64/libpthread.so.0(+0xf630)[0x7fffff3c9630]
+/lib64/libc.so.6(gsignal+0x37)[0x7ffffd4c3387]
+/lib64/libc.so.6(abort+0x148)[0x7ffffd4c4a78]
+mysqld[0x77e04c]
+mysqld(_ZN2ib5fatalD1Ev+0xfd)[0x116666d]
+mysqld[0x122c15a]
+mysqld[0x122c39b]
+mysqld(_Z7_fil_ioRK9IORequestbRK9page_id_tRK11page_size_tmmPvS8_P5trx_tb+0x2b6)[0x1233c36]
+mysqld(_Z13buf_read_pageRK9page_id_tRK11page_size_tP5trx_t+0x16c)[0x11dd4ec]
+mysqld(_Z16buf_page_get_genRK9page_id_tRK11page_size_tmP11buf_block_tmPKcmP5mtr_tbP7dberr_t+0x4a0)[0x11aa3a0]
+mysqld(_Z31trx_rseg_get_n_undo_tablespacesPm+0x16e)[0x1144ffe]
+mysqld[0x77d133]
+mysqld(_Z34innobase_start_or_create_for_mysqlv+0x3a92)[0x1110a82]
+mysqld[0xfbabf7]
+mysqld(_Z24ha_initialize_handlertonP13st_plugin_int+0x51)[0x7aee21]
+mysqld[0xc94f65]
+mysqld(_Z40plugin_register_builtin_and_init_core_sePiPPc+0x2f0)[0xc9af00]
+mysqld[0xd4b60d]
+mysqld(_Z11mysqld_mainiPPc+0xaa5)[0xd4f0d5]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7ffffd4af555]
+mysqld[0x7a0414]
+You may download the Percona Server operations manual by visiting
+http://www.percona.com/software/percona-server/. You may find information
+in the manual which will help you identify the cause of the crash.
+2024-07-06T14:40:19.405700Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2024-07-06T14:40:19.415163Z 0 [Note] mysqld (mysqld 5.7.44-log) starting as process 1 ...
+2024-07-06T14:40:19.427309Z 0 [Warning] Setting lower_case_table_names=2 because file system for /var/lib/mysql/ is case insensitive
+2024-07-06T14:40:19.441611Z 0 [Note] InnoDB: PUNCH HOLE support available
+2024-07-06T14:40:19.442433Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2024-07-06T14:40:19.442588Z 0 [Note] InnoDB: Uses event mutexes
+2024-07-06T14:40:19.442705Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2024-07-06T14:40:19.442837Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.13
+2024-07-06T14:40:19.442938Z 0 [Note] InnoDB: Using Linux native AIO
+2024-07-06T14:40:19.452295Z 0 [Note] InnoDB: Number of pools: 1
+2024-07-06T14:40:19.456765Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2024-07-06T14:40:19.465795Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2024-07-06T14:40:19.627603Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2024-07-06T14:40:19.635613Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2024-07-06T14:40:19.662429Z 0 [ERROR] [FATAL] InnoDB: Table flags are 0 in the data dictionary but the flags in file ./ibdata1 are 0x4800!
+2024-07-06 14:40:19 0x7ffffbe5e880  InnoDB: Assertion failure in thread 140737419536512 in file ut0ut.cc line 921
+InnoDB: We intentionally generate a memory trap.
+InnoDB: Submit a detailed bug report to http://bugs.mysql.com.
+InnoDB: If you get repeated assertion failures or crashes, even
+InnoDB: immediately after the mysqld startup, there may be
+InnoDB: corruption in the InnoDB tablespace. Please refer to
+InnoDB: http://dev.mysql.com/doc/refman/5.7/en/forcing-innodb-recovery.html
+InnoDB: about forcing recovery.
+14:40:19 UTC - mysqld got signal 6 ;
+This could be because you hit a bug. It is also possible that this binary
+or one of the libraries it was linked against is corrupt, improperly built,
+or misconfigured. This error can also be caused by malfunctioning hardware.
+Attempting to collect some information that could help diagnose the problem.
+As this is a crash and something is definitely wrong, the information
+collection process might fail.
+
+key_buffer_size=8388608
+read_buffer_size=131072
+max_used_connections=0
+max_threads=151
+thread_count=0
+connection_count=0
+It is possible that mysqld could use up to 
+key_buffer_size + (read_buffer_size + sort_buffer_size)*max_threads = 68199 K  bytes of memory
+Hope that's ok; if not, decrease some variables in the equation.
+
+Thread pointer: 0x0
+Attempting backtrace. You can use the following information to find out
+where mysqld died. If you see no messages after this, something went
+terribly wrong...
+stack_bottom = 0 thread_stack 0x40000
+mysqld(my_print_stacktrace+0x3b)[0xf11c0b]
+mysqld(handle_fatal_signal+0x486)[0x79f7d6]
+/lib64/libpthread.so.0(+0xf8c0)[0x7fffff3ca8c0]
+/lib64/libc.so.6(gsignal+0x37)[0x7ffffd6da387]
+/lib64/libc.so.6(abort+0x148)[0x7ffffd6dba78]
+mysqld[0x76f748]
+mysqld(_ZN2ib5fatalD1Ev+0xfd)[0x10e97cd]
+mysqld[0x11a14c2]
+mysqld[0x11a1a0b]
+mysqld(_Z6fil_ioRK9IORequestbRK9page_id_tRK11page_size_tmmPvS8_+0x208)[0x11ad238]
+mysqld(_Z13buf_read_pageRK9page_id_tRK11page_size_t+0xe4)[0x115b594]
+mysqld(_Z16buf_page_get_genRK9page_id_tRK11page_size_tmP11buf_block_tmPKcmP5mtr_tb+0x42d)[0x112a96d]
+mysqld(_Z31trx_rseg_get_n_undo_tablespacesPm+0x15d)[0x10c892d]
+mysqld[0x1090758]
+mysqld(_Z34innobase_start_or_create_for_mysqlv+0x3996)[0x1094ea6]
+mysqld[0xf5a89f]
+mysqld(_Z24ha_initialize_handlertonP13st_plugin_int+0x51)[0x7f2671]
+mysqld[0xcf2c85]
+mysqld(_Z40plugin_register_builtin_and_init_core_sePiPPc+0x2f0)[0xcf8fb0]
+mysqld[0x797cc4]
+mysqld(_Z11mysqld_mainiPPc+0xa85)[0x79b4e5]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x7ffffd6c6555]
+mysqld[0x78f154]
+The manual page at http://dev.mysql.com/doc/mysql/en/crashing.html contains
+information that should help you find out what is causing the crash.
