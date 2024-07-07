@@ -1,0 +1,43 @@
+services:
+  main:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    platform: linux/x86_64
+    deploy:
+      replicas: 1
+      placement:
+        constraints: [node.role != manager]
+    environment:
+      MYSQL_ROOT_PASSWORD: seunggu
+      MYSQL_DATABASE: replication_db
+      MYSQL_USER: seunggu
+      MYSQL_MASTER: "true"
+    networks:
+      - mysql_replica_network
+  sub:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    platform: linux/x86_64
+    deploy:
+      replicas: 2
+      placement:
+        constraints: [node.role != manager]
+    depends_on:
+      - main
+    environment:
+      MYSQL_MASTER_HOST: main
+      MYSQL_ROOT_PASSWORD: seunggu
+      MYSQL_DATABASE: replication_db
+      MYSQL_USER: seunggu
+      MYSQL_PASSWORD: seunggu
+      MYSQL_REPL_USER: replica_user
+      MYSQL_REPL_PASSWORD: seunggu
+    networks:
+      - mysql_replica_network
+
+
+networks:
+  mysql_replica_network:
+    driver: bridge
