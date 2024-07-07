@@ -15,6 +15,8 @@ services:
       MYSQL_MASTER: "true"
     networks:
       - mysql_replica_network
+    ports:
+      - 3306:3306
   sub:
     build:
       context: .
