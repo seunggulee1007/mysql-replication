@@ -1,65 +1,43 @@
 services:
   main:
-    image: mysql:5.7.44
+    build:
+      context: .
+      dockerfile: Dockerfile
     platform: linux/x86_64
-    container_name: main
-    volumes:
-      - ./main/data:/var/lib/mysql
-      - ./main/log:/var/log/mysql
-      - ./main/conf:/etc/mysql/conf.d
+    deploy:
+      replicas: 1
+      placement:
+        constraints: [node.role != manager]
     environment:
-      - MYSQL_ROOT_PASSWORD=root
-    ports:
-      - 3306:3306
+      MYSQL_ROOT_PASSWORD: seunggu
+      MYSQL_DATABASE: replication_db
+      MYSQL_USER: seunggu
+      MYSQL_MASTER: "true"
     networks:
-      - net-mysql
-  sub1:
-    image: mysql:5.7.44
+      - mysql_replica_network
+  sub:
+    build:
+      context: .
+      dockerfile: Dockerfile
     platform: linux/x86_64
-    container_name: sub1
-    volumes:
-      - ./sub1/data:/var/lib/mysql
-      - ./sub1/log:/var/log/mysql
-      - ./sub1/conf:/etc/mysql/conf.d
-    environment:
-      - MYSQL_ROOT_PASSWORD=root
-    ports:
-      - 3307:3306
+    deploy:
+      replicas: 2
+      placement:
+        constraints: [node.role != manager]
     depends_on:
       - main
-  sub2:
-    image: mysql:5.7.44
-    platform: linux/x86_64
-    container_name: sub2
-    volumes:
-      - ./sub2/data:/var/lib/mysql
-      - ./sub2/log:/var/log/mysql
-      - ./sub2/conf:/etc/mysql/conf.d
     environment:
-      - MYSQL_ROOT_PASSWORD=root
-    ports:
-      - 3308:3306
-    depends_on:
-      - main
+      MYSQL_MASTER_HOST: main
+      MYSQL_ROOT_PASSWORD: seunggu
+      MYSQL_DATABASE: replication_db
+      MYSQL_USER: seunggu
+      MYSQL_PASSWORD: seunggu
+      MYSQL_REPL_USER: replica_user
+      MYSQL_REPL_PASSWORD: seunggu
     networks:
-      - net-mysql
-  sub3:
-    image: mysql:5.7.44
-    platform: linux/x86_64
-    container_name: sub3
-    volumes:
-      - ./sub3/data:/var/lib/mysql
-      - ./sub3/log:/var/log/mysql
-      - ./sub3/conf:/etc/mysql/conf.d
-    environment:
-      - MYSQL_ROOT_PASSWORD=root
-    ports:
-      - 3309:3306
-    depends_on:
-      - main
-    networks:
-      - net-mysql
+      - mysql_replica_network
 
-networks: 
-  net-mysql:
+
+networks:
+  mysql_replica_network:
     driver: bridge
