@@ -4,6 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     platform: linux/x86_64
+    container_name: main
     deploy:
       replicas: 1
       placement:
@@ -17,13 +18,14 @@ services:
       - mysql_replica_network
     ports:
       - 3306:3306
-  sub:
+  sub1:
     build:
       context: .
       dockerfile: Dockerfile
     platform: linux/x86_64
+    container_name: sub1
     deploy:
-      replicas: 2
+      replicas: 1
       placement:
         constraints: [node.role != manager]
     depends_on:
@@ -38,6 +40,56 @@ services:
       MYSQL_REPL_PASSWORD: seunggu
     networks:
       - mysql_replica_network
+    ports:
+      - 3307:3306
+  sub2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    platform: linux/x86_64
+    container_name: sub2
+    deploy:
+      replicas: 1
+      placement:
+        constraints: [node.role != manager]
+    depends_on:
+      - main
+    environment:
+      MYSQL_MASTER_HOST: main
+      MYSQL_ROOT_PASSWORD: seunggu
+      MYSQL_DATABASE: replication_db
+      MYSQL_USER: seunggu
+      MYSQL_PASSWORD: seunggu
+      MYSQL_REPL_USER: replica_user
+      MYSQL_REPL_PASSWORD: seunggu
+    networks:
+      - mysql_replica_network
+    ports:
+      - 3308:3306
+  sub3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    platform: linux/x86_64
+    container_name: sub3
+    deploy:
+      replicas: 1
+      placement:
+        constraints: [node.role != manager]
+    depends_on:
+      - main
+    environment:
+      MYSQL_MASTER_HOST: main
+      MYSQL_ROOT_PASSWORD: seunggu
+      MYSQL_DATABASE: replication_db
+      MYSQL_USER: seunggu
+      MYSQL_PASSWORD: seunggu
+      MYSQL_REPL_USER: replica_user
+      MYSQL_REPL_PASSWORD: seunggu
+    networks:
+      - mysql_replica_network
+    ports:
+      - 3309:3306
 
 
 networks:
