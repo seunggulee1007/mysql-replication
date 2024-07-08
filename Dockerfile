@@ -4,6 +4,7 @@ FROM mysql:5.7
 # RUN yum update -y
 RUN yum install -y wget
 RUN yum install -y hostname
+RUN yum install -y vim
 
 # (2) entrykit 설치
 RUN wget https://github.com/progrium/entrykit/releases/download/v0.4.0/entrykit_0.4.0_linux_x86_64.tgz
