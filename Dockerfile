@@ -17,7 +17,7 @@ RUN entrykit --symlink
 COPY add-server-id.sh /usr/local/bin/
 COPY etc/mysql/mysql.conf.d/mysqld.cnf /etc/mysql/mysql.conf.d/
 COPY etc/mysql/conf.d/mysql.cnf /etc/mysql/conf.d/
-COPY prepare.sh /docker-entrypoint-initdb.d
+COPY init.d/prepare.sh /docker-entrypoint-initdb.d
 COPY init-data.sh /usr/local/bin/
 COPY sql /sql
 

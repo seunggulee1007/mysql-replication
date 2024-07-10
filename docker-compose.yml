@@ -9,6 +9,10 @@ services:
       replicas: 1
       placement:
         constraints: [node.role != manager]
+    volumes:
+      - ./main/mysql/data:/var/lib/mysql
+      - ./main/mysql/log:/var/log/mysql
+    user: root
     environment:
       MYSQL_ROOT_PASSWORD: seunggu
       MYSQL_DATABASE: replication_db
@@ -24,6 +28,9 @@ services:
       dockerfile: Dockerfile
     platform: linux/x86_64
     container_name: sub1
+    volumes:
+      - ./sub1/mysql/data:/var/lib/mysql
+      - ./sub1/mysql/log:/var/log/mysql
     deploy:
       replicas: 1
       placement:
@@ -48,6 +55,9 @@ services:
       dockerfile: Dockerfile
     platform: linux/x86_64
     container_name: sub2
+    volumes:
+      - ./sub2/mysql/data:/var/lib/mysql
+      - ./sub2/mysql/log:/var/log/mysql
     deploy:
       replicas: 1
       placement:
@@ -72,6 +82,9 @@ services:
       dockerfile: Dockerfile
     platform: linux/x86_64
     container_name: sub3
+    volumes:
+      - ./sub3/mysql/data:/var/lib/mysql
+      - ./sub3/mysql/log:/var/log/mysql
     deploy:
       replicas: 1
       placement:
@@ -90,7 +103,20 @@ services:
       - mysql_replica_network
     ports:
       - 3309:3306
-
+  orchestrator:
+    container_name: orchestrator
+    platform: linux/x86_64
+    build:
+      context: ./orchestrator
+      dockerfile: Dockerfile
+    volumes:
+      - ./orchestrator.init.d:/etc/init.d
+    depends_on:
+      - main
+    networks:
+      - mysql_replica_network
+    ports:
+      - 3000:3000
 
 networks:
   mysql_replica_network:
