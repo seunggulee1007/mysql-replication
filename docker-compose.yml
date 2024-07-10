@@ -10,8 +10,8 @@ services:
       placement:
         constraints: [node.role != manager]
     volumes:
-      - ./init.d:/docker-entrypoint-initdb.d
       - ./main/mysql/data:/var/lib/mysql
+      - ./main/mysql/log:/var/log/mysql
     user: root
     environment:
       MYSQL_ROOT_PASSWORD: seunggu
@@ -30,6 +30,7 @@ services:
     container_name: sub1
     volumes:
       - ./sub1/mysql/data:/var/lib/mysql
+      - ./sub1/mysql/log:/var/log/mysql
     deploy:
       replicas: 1
       placement:
@@ -56,6 +57,7 @@ services:
     container_name: sub2
     volumes:
       - ./sub2/mysql/data:/var/lib/mysql
+      - ./sub2/mysql/log:/var/log/mysql
     deploy:
       replicas: 1
       placement:
@@ -82,6 +84,7 @@ services:
     container_name: sub3
     volumes:
       - ./sub3/mysql/data:/var/lib/mysql
+      - ./sub3/mysql/log:/var/log/mysql
     deploy:
       replicas: 1
       placement:
@@ -103,7 +106,9 @@ services:
   orchestrator:
     container_name: orchestrator
     platform: linux/x86_64
-    image: openarkcode/orchestrator:latest
+    build:
+      context: ./orchestrator
+      dockerfile: Dockerfile
     volumes:
       - ./orchestrator.init.d:/etc/init.d
     depends_on:

@@ -11,5 +11,7 @@ datadir		= /var/lib/mysql
 symbolic-links=0
 relay-log=mysqld-relay-bin 
 relay-log-index=mysqld-relay-bin 
-
+binlog-format=ROW
+log-slave-updates=ON
+master-info-repository='TABLE'
 log-bin=/var/lib/mysql/mysql-bin.log

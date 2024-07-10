@@ -18,7 +18,8 @@ COPY add-server-id.sh /usr/local/bin/
 COPY etc/mysql/mysql.conf.d/mysqld.cnf /etc/mysql/mysql.conf.d/
 COPY etc/mysql/conf.d/mysql.cnf /etc/mysql/conf.d/
 COPY init.d/prepare.sh /docker-entrypoint-initdb.d
-COPY init.d/01_create_users.sql /docker-entrypoint-initdb.d
+COPY init-data.sh /usr/local/bin/
+COPY sql /sql
 
 # (4) 스크립트, mysqld 실행
 ENTRYPOINT [ \
