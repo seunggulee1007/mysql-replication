@@ -93,7 +93,7 @@
     "RecoveryPeriodBlockSeconds": 3600,
     "RecoveryIgnoreHostnameFilters": [],
     "RecoverMasterClusterFilters": [
-      "*"
+      "sub1", "sub2"
     ],
     "RecoverIntermediateMasterClusterFilters": [
       "_intermediate_master_pattern_"
